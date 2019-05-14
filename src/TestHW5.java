@@ -33,8 +33,8 @@ public class TestHW5 {
                 double x = in.nextDouble();
                 double y = in.nextDouble();
                 Location p = new Location(x, y);
-                md.insertNearest(p);
-                // md.insertSmallest(p);
+                //md.insertNearest(p);
+                md.insertSmallest(p);
             }
 
             // draw to standard draw
