@@ -17,8 +17,10 @@ public class TestHW5 {
 
     public static void main(String[] args) {
 
+        File file = new File("tsp10.txt");
+
         try {
-            Scanner in = new Scanner(new File(args[0]));
+            Scanner in = new Scanner(file);
             int width = in.nextInt();
             int height = in.nextInt();
             int border = 20;

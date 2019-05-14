@@ -24,5 +24,6 @@ public class Location {
     public double distanceTo(Location b) {
         double dx = this.x - b.x;
         double dy = this.y - b.y;
-        return Math.sqrt(dx*dx + dy*dy);
+        return Math.sqrt(dx * dx + dy * dy);
     }
+}
